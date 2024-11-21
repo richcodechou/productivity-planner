@@ -8,6 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'productivity-planner';
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 }

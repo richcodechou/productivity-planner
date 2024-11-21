@@ -94,8 +94,6 @@
             },
             "development": {
               "buildTarget": "productivity-planner:build:development"
-            "development": {
-              "buildTarget": "productivity-planner:build:development"
             }
           },
           "defaultConfiguration": "development"
