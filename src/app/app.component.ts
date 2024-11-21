@@ -1,16 +1,17 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'productivity-planner';
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  readonly isStaging = !(environment as any).production;
+  readonly isProduction = (environment as any).production;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  readonly firebaseProjectId = (environment as any).firebaseConfig.projectId;
 }
