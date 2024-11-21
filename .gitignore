@@ -42,7 +42,7 @@ testem.log
 Thumbs.db
 
 #Environment
-# /src/environments/environment.staging.ts
+/src/environments
 # /src/environments/environment.prod.ts
 
 # Firebase cache
